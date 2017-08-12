@@ -1,6 +1,6 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
-import computedProp from "./source.js"
+import  from "./source"
 
 test(({same, end}) => {
   same(
