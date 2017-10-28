@@ -50,8 +50,8 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/mergedeepright": "2.17.0",
-    "@unction/recordfrom": "2.17.0"
+    "@unction/mergedeepright": "2.18.0",
+    "@unction/recordfrom": "2.18.0"
   },
   "nyc": {
     "require": [
