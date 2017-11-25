@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@unction/mergedeepright": "2.44.0",
-    "@unction/recordfrom": "2.45.0"
+    "@unction/recordfrom": "2.46.0"
   },
   "nyc": {
     "require": [
