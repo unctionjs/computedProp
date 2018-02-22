@@ -52,7 +52,7 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/mergedeepright": "8.0.0",
+    "@unction/mergedeepright": "9.0.0",
     "@unction/recordfrom": "9.0.0"
   },
   "nyc": {
