@@ -1,6 +1,6 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
-import computedProp from "./index"
+import {test} from "tap";
+import computedProp from "./index";
 
 test(({same, end}) => {
   same(
@@ -19,10 +19,10 @@ test(({same, end}) => {
       tag: "krainboltgreene#1",
       attributes: {username: "krainboltgreene"},
     }
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
@@ -43,8 +43,8 @@ test(({same, end}) => {
         tag: "krainboltgreene#1",
       },
     }
-  )
+  );
 
 
-  end()
-})
+  end();
+});
