@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@unction/mergedeepright": "10.1.0",
-    "@unction/recordfrom": "9.0.0"
+    "@unction/objectfrom": "1.0.0"
   },
   "nyc": {
     "require": [
