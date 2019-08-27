@@ -1,6 +1,6 @@
-/* eslint-disable flowtype/require-return-type */
+
 import {test} from "tap";
-import computedProp from "./index";
+import computedProp from "./";
 
 test(({same, end}) => {
   same(
