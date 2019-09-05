@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (FunctorType => mixed) => KeyChainType => FunctorType => FunctorType
+> MapperFunctionType<A, B> => KeyChainType<C> => KeyedEnumerableType<A, C | B> => KeyedEnumerableType<A, C | B>
 
 Given an object this function will return that object but with a new property, where the value is computed. The computation is given the object you'll be copying.
 
