@@ -1,7 +1,7 @@
 
 import computedProp from "./index";
 
-test(() => {
+test("works", () => {
   expect(computedProp(
     ({id, attributes: {username}}) => `${username}#${id}`
   )(
@@ -18,7 +18,7 @@ test(() => {
   });
 });
 
-test(() => {
+test("works", () => {
   expect(computedProp(
     ({id, attributes: {username}}) => `${username}#${id}`
   )(
