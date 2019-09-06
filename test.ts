@@ -1,5 +1,5 @@
 
-import computedProp from "./index.ts";
+import computedProp from "./index";
 
 test(() => {
   expect(computedProp(
