@@ -53,8 +53,8 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/mergedeepright": "10.10.0",
-    "@unction/objectfrom": "1.9.0"
+    "@unction/mergedeepright": "10.11.0",
+    "@unction/objectfrom": "1.10.0"
   },
   "files": [
     "index.ts",
