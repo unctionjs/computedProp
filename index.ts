@@ -1,6 +1,6 @@
 import mergeDeepRight from "@unction/mergedeepright";
 import objectFrom from "@unction/objectfrom";
-import {KeyedEnumerableType} from "./types";
+
 import {MapperFunctionType} from "./types";
 import {KeyChainType} from "./types";
 
