@@ -60,7 +60,7 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@unction/mergedeepright": "^10.12.0",
-    "@unction/objectfrom": "^1.11.0"
+    "@unction/mergedeepright": "^10.13.0",
+    "@unction/objectfrom": "^1.12.0"
   }
 }
