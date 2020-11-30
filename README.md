@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> MapperFunctionType<A, B> => KeyChainType<C> => KeyedEnumerableType<A, C | B> => KeyedEnumerableType<A, C | B>
+> MapperFunctionType<A, B> => KeyChainType<C> => Array<A> | Set<A> | RecordType<C | B, A> | string => Array<A> | Set<A> | RecordType<C | B, A> | string
 
 Given an object this function will return that object but with a new property, where the value is computed. The computation is given the object you'll be copying.
 

@@ -6,7 +6,7 @@ import {KeyChainType} from "./types";
 
 export default function computedProp<A, B, C> (mapper: MapperFunctionType<A, B>) {
   return function computedPropComputer (keychain: KeyChainType<C>) {
-    return function computedPropComputerKeyChain (enumerable: KeyedEnumerableType<A, C | B>): KeyedEnumerableType<A, C | B> {
+    return function computedPropComputerKeyChain (enumerable: Array<A> | Set<A> | RecordType<C | B, A> | string): Array<A> | Set<A> | RecordType<C | B, A> | string {
       return mergeDeepRight(enumerable)(objectFrom(keychain)(mapper(enumerable)));
     };
   };
